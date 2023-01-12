@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dojo</title>
+</head>
+<!--  -->
+
+<body>
+  <h1>Dojo survey</h1>
+
+  <!-- ======on html the method is "method" on python is "methods" -->
+
+  <form action="/data" method="post">
+    <p>Name: </p>
+    <input name="name" type="text">
+    <p>Dojo Locations</p>
+    <select name="locations" id="">
+      <option value="San Jose">San Jose</option>
+      <option value="Bel view">Bel View</option>
+      <option value="Online">Online</option>
+    </select>
+
+    <!--  -->
+
+    <p>Favorite Language</p>
+    <select name="languages" id="">
+      <option value="Python">Python</option>
+      <option value="C++">C++</option>
+      <option value="JavaScript">Java Script</option>
+    </select>
+    <p>Comments</p>
+    <textarea name="comment" id="" cols="30" rows="10"></textarea>
+    <button>Submit</button>
+  </form>
+
+</body>
+
+</html>
